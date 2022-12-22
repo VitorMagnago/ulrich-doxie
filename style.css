@@ -32,9 +32,13 @@ body {
   padding-right: 30px;
 }
 
-.navbar__links {
-  font-size: 25px;
+.navbar__links a {
+  text-decoration: none;
   color: #b3f8b3;
+  font-size: 25px;
+}
+
+.navbar__links {
   margin-left: 30px;
 }
 
@@ -82,4 +86,40 @@ body {
 .title__hero {
   width: 450px;
   height: auto;
+}
+
+#good-boy {
+  font-size: 36px;
+  font-weight: 800;
+  color: #373535;
+  text-align: center;
+  background: #b3f8b3;
+  padding-top: 30px;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #b3f8b3;
+}
+
+.feed__card {
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  height: 400px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.feed__photo {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #b3f8b3;
+  border-radius: 16px;
+}
+
+.feed__photo:hover {
+  border: 5px solid #373535;
 }
