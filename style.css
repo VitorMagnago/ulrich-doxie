@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -84,8 +87,13 @@ body {
 }
 
 .title__hero {
-  width: 450px;
+  width: 400px;
   height: auto;
+  box-shadow: 1.7px 3.1px 3.1px rgba(0, 0, 0, 0.18),
+    4.8px 8.6px 8.5px rgba(0, 0, 0, 0.235),
+    11.5px 20.8px 20.5px rgba(0, 0, 0, 0.294),
+    38px 69px 68px rgba(0, 0, 0, 0.36);
+  border-radius: 30px;
 }
 
 #good-boy {
@@ -102,6 +110,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   background: #b3f8b3;
+  padding-left: 80px;
 }
 
 .feed__card {
@@ -122,4 +131,12 @@ body {
 
 .feed__photo:hover {
   border: 5px solid #373535;
+}
+
+.feed__text {
+  font-size: 18px;
+  color: #373535;
+  text-align: center;
+  margin-right: 80px;
+  margin-top: 8px;
 }
