@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -102,7 +102,7 @@ body {
   color: #373535;
   text-align: center;
   background: #b3f8b3;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .feed {
@@ -139,4 +139,62 @@ body {
   text-align: center;
   margin-right: 80px;
   margin-top: 8px;
+}
+
+#about {
+  display: flex;
+  background: #b3f8b3;
+  height: 700px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.about__text {
+  width: 50%;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 45px;
+}
+
+#contact {
+  display: flex;
+  background: #b3f8b3;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  background: #373535;
+  width: 600px;
+  height: 500px;
+  box-shadow: 1.7px 3.1px 3.1px rgba(0, 0, 0, 0.18),
+    4.8px 8.6px 8.5px rgba(0, 0, 0, 0.235),
+    11.5px 20.8px 20.5px rgba(0, 0, 0, 0.294),
+    38px 69px 68px rgba(0, 0, 0, 0.36);
+  border-radius: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.call-to-action__heading {
+  font-size: 36px;
+  color: #b3f8b3;
+}
+
+.call-to-action__logo {
+  width: 400px;
+}
+
+.copyright {
+  display: flex;
+  background: #373535;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
