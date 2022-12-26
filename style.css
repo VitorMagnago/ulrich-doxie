@@ -84,6 +84,11 @@ body {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
+  transition: 1s all;
+}
+
+.title__button:hover {
+  transform: scale(1.4);
 }
 
 .title__hero {
@@ -120,6 +125,11 @@ body {
   height: 400px;
   border-radius: 20px;
   justify-content: center;
+  transition: 1s transform;
+}
+
+.feed__card:hover {
+  transform: scale(1.2);
 }
 
 .feed__photo {
